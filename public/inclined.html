@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:#ede7f6">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>FBT | Inclined Plane</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Free Body Tutor</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="./index.html">Back</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" style="color:black">
+        <h3>Inclined Plane</h3>
+        <blockquote>
+            Formula used : N = m*g*cosβ
+        </blockquote>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="number" class="validate">
+                        <label for="email">Mass</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="beta" type="number" class="validate">
+                        <label for="beta">Beta(Angle)</label>
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Calculate normal force
+                    </button>
+                </div>
+            </form>
+        </div>
+        <h4>Normal force = <span class="answer"></span></h4>
+    </div>
+    <script src="js/inclinedPlane.js"></script>
+</body>
+
+</html>
