@@ -19,5 +19,9 @@ window.addEventListener('DOMContentLoaded', () => {
         elongation.value}`;
       return;
     }
+    if (!elongation.value) {
+      ans.innerHTML = `Elongation(x) = ${(mass.value * 9.8) / k.value}`;
+      return;
+    }
   });
 });

@@ -12,6 +12,6 @@ window.addEventListener('DOMContentLoaded', () => {
     const x = 2 * massA.value * massB.value;
     const y = parseFloat(massA.value) + parseFloat(massB.value);
     const z = x / y;
-    ans.textContent = `${z * 9.8}`;
+    ans.textContent = `${z * 9.8} Newtons`;
   });
 });
